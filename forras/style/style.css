@@ -152,3 +152,19 @@ h2 {
         margin: 0 0 10px 10px; 
     }
 }
+details {
+    border: 1px dashed rgb(2 138 158);
+    margin-bottom: 10px;
+}
+summary {
+    background-color: rgb(2 138 158);
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    padding: 5px;
+    cursor: pointer;
+}
+details div {
+    background-color: rgb(9 81 92);
+    padding: 10px;
+}
