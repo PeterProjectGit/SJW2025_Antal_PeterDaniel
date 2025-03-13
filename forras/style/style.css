@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 600px;
+    background-image: url("../img/banner_fruits.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+
+}
+
+h1 {
+    position: relative;
+    top: 5rem;
+    left: 5rem;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(2, 138, 158, 0.25);
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+    font-variant: small-caps;
+    border-radius: 50%;
+    text-shadow: 2px 2px 3px black;
+    border: 10px double white;
+    display: flex;
+    align-items: center;
+
+}
+
+.navbar {
+    background-color: rgb(2, 138, 158);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+}
+
+.logo {
+    font-size: 1.5rem;
+    color: black;
+    font-weight: bold;
+}
+
+.hamburger {
+
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px;
+    background: #fff;
+    transition: all 0.3s;
+
+}
